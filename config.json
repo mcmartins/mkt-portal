@@ -1,12 +1,12 @@
 {
   "PORTAL": {
     "PORT": 3000,
-    "HOST": "localhost",
+    "HOST": "mkt-server.cloudapp.net",
     "SOCKET_PORT": 3001
   },
   "CONSUMER":{
     "PORT": 3002,
-    "HOST": "localhost"
+    "HOST": "mkt-server.cloudapp.net"
   },
   "PROCESSOR": {
     "CONCURRENT": 10
