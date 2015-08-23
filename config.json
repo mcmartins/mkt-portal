@@ -1,0 +1,29 @@
+{
+  "PORTAL": {
+    "PORT": 3000,
+    "HOST": "localhost",
+    "SOCKET_PORT": 3001
+  },
+  "CONSUMER":{
+    "PORT": 3002,
+    "HOST": "localhost"
+  },
+  "PROCESSOR": {
+    "CONCURRENT": 10
+  },
+  "PRODUCER": {
+    "INTERVAL": 2000
+  },
+  "REDIS": {
+    "PORT": 6379,
+    "HOST": "mkt-redis.cloudapp.net",
+    "PREFIX": "MKT",
+    "QUEUE": "messages"
+  },
+  "MONGODB":  {
+    "PORT": 27017,
+    "HOST": "mkt-redis.cloudapp.net",
+    "DB": "MKT",
+    "COLLECTION": "messages"
+  }
+}
