@@ -1,0 +1,43 @@
+{
+  "name": "mkt-consumer",
+  "description": "Market Trade Consumer.",
+  "author": "Manuel Martins <manuelmachadomartins@gmail.com>",
+  "version": "0.0.1",
+  "license": "MIT",
+  "engine": "node >= 0.12.0",
+  "main": "./index",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mcmartins/mkt-consumer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mcmartins/mkt-consumer/issues"
+  },
+  "keywords": [
+    "api",
+    "consumer",
+    "market"
+  ],
+  "dependencies": {
+    "express": ">=4.13.3",
+    "toobusy-js": ">=0.4.2",
+    "body-parser": ">=1.12.0",
+    "compression": ">=1.4.1",
+    "express-validator": ">=2.13.0",
+    "basic-auth": ">=1.0.3",
+    "helmet": ">=0.6.1",
+    "async": ">=1.4.2",
+    "bee-queue": ">=0.2.0",
+    "ejs": "=1.0.0",
+    "mongodb": ">=2.0.42",
+    "socket.io": "1.3.6"
+  },
+  "devDependencies": {
+    "codeclimate-test-reporter": ">=0.1.0",
+    "istanbul": ">=0.3.17",
+    "mocha": ">=2.2.5"
+  }
+}
