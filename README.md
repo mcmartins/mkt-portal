@@ -13,3 +13,9 @@ password: admin
 ## URL
 
 ### http://mkt-server.cloudapp.net:3000/mkt/portal
+
+# Run
+
+```bash
+node mkt-portal/index.js
+```
