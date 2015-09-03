@@ -16,8 +16,14 @@ password: admin
 
 # Run
 
+Windows:
 ```bash
-node MKT_CONFIG_FILE="/path/to/config.json" mkt-portal/index.js
+set MKT_CONFIG_FILE=\path\to\config.json&&node mkt-portal/index.js
+```
+
+Linux:
+```bash
+export MKT_CONFIG_FILE="/path/to/config.json";node mkt-portal/index.js
 ```
 
 ## Configurations
