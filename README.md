@@ -2,7 +2,7 @@
 
 ## Intro
 
-Message Report - Data Analyses Portal. Displays information related to messages ingested and processed. Displays realtime information related to Workers processing state - Messages processed, Messages failed and Messages retrying. It displays also information related to the most common currency trade. It would be possible to display other information related to e.g. Redis.
+Message Report - Data Analyses Portal. Displays information related to messages ingested and processed. Displays realtime information related to Workers processing state - Messages processed, Messages failed and Messages retrying. It displays also information related to the most common currency trade. It would be possible to display other information related to e.g. Redis status by adding new functionality to the BeeQueue implementation.
 
 The portal is accessbile through http and is "protected" with basic (hardcoded) authentication.
 
@@ -28,4 +28,4 @@ export MKT_CONFIG_FILE="/path/to/config.json";node mkt-portal/index.js
 
 ## Configurations
 
-The configurations file is shared among all the projects and is located in the [mkt-portal](https://github.com/mcmartins/mkt-portal) | [config.json](https://github.com/mcmartins/mkt-portal/blob/master/config.json)
+The configurations file is shared among all the projects and is located here: [config.json](https://github.com/mcmartins/mkt-portal/blob/master/config.json)
